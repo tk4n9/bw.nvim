@@ -30,6 +30,19 @@ function M.get_highlights(palette, variant, opts)
             IncSearch    = { fg = p.bg, bg = p.fg },
             MatchParen   = { fg = p.bg, bg = p.gray06, bold = true },
 
+            -- Standard UI extended
+            Directory    = { fg = p.gray04, bold = true },
+            Title        = { fg = p.fg, bold = true },
+            NonText      = { fg = p.gray12 },
+            SpecialKey   = { fg = p.gray12 },
+            Conceal      = { fg = p.gray10 },
+            Folded       = { fg = p.gray08, bg = p.gray14 },
+            FoldColumn   = { fg = p.gray10, bg = p.bg },
+            QuickFixLine = { bg = p.gray13, bold = true },
+            ErrorMsg     = { fg = p.fg, bg = p.gray04, bold = true },
+            MoreMsg      = { fg = p.gray06, bold = true },
+            Question     = { fg = p.gray06, bold = true },
+
             -- Syntax
             Comment      = { fg = p.gray08, italic = true },
             Constant     = { fg = p.gray05 },
@@ -87,6 +100,19 @@ function M.get_highlights(palette, variant, opts)
             Search       = { reverse = true },
             IncSearch    = { reverse = true, bold = true },
             MatchParen   = { bold = true, underline = true },
+
+            -- Standard UI extended
+            Directory    = { fg = p.fg, bold = true },
+            Title        = { fg = p.fg, bold = true },
+            NonText      = { fg = p.fg },
+            SpecialKey   = { fg = p.fg },
+            Conceal      = { fg = p.fg },
+            Folded       = { fg = p.fg, bg = p.bg, reverse = true },
+            FoldColumn   = { fg = p.fg, bg = p.bg },
+            QuickFixLine = { reverse = true },
+            ErrorMsg     = { fg = p.bg, bg = p.fg, bold = true },
+            MoreMsg      = { fg = p.fg, bold = true },
+            Question     = { fg = p.fg, bold = true },
 
             -- Syntax
             Comment      = { fg = p.fg, italic = true },
