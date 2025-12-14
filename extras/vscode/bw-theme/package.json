@@ -1,0 +1,37 @@
+{
+        "name": "bw-theme",
+        "publisher": "tk",
+        "displayName": "BW Theme",
+        "description": "The true black and white theme",
+        "version": "0.0.1",
+        "engines": {
+                "vscode": "^1.103.0"
+        },
+        "categories": [
+                "Themes"
+        ],
+        "contributes": {
+                "themes": [
+                        {
+                                "label": "bw-grayscale-light",
+                                "uiTheme": "vs",
+                                "path": "./themes/bw-grayscale-light-color-theme.json"
+                        },
+                        {
+                                "label": "bw-grayscale-dark",
+                                "uiTheme": "vs-dark",
+                                "path": "./themes/bw-grayscale-dark-color-theme.json"
+                        },
+                        {
+                                "label": "bw-binary-light",
+                                "uiTheme": "vs",
+                                "path": "./themes/bw-binary-light-color-theme.json"
+                        },
+                        {
+                                "label": "bw-binary-dark",
+                                "uiTheme": "vs-dark",
+                                "path": "./themes/bw-binary-dark-color-theme.json"
+                        }
+                ]
+        }
+}
